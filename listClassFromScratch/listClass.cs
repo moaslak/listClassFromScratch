@@ -5,7 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace listClassFromScratch
-{
+{   
+    /// <summary>
+    /// List methods created by using ony arrays.
+    /// String, int and double types are usable. Operation will be done on strings.
+    /// </summary>
     internal class listClass
     {        
         //Array
@@ -154,7 +158,7 @@ namespace listClassFromScratch
         }
 
         /// <summary>
-        /// Converts a double array into a string array
+        /// Converts a double array into a string array. All entries MUST be doubles.
         /// </summary>
         /// <param name="array"></param>
         /// <returns>string array</returns>
@@ -180,7 +184,7 @@ namespace listClassFromScratch
 
 
         /// <summary>
-        /// Converts a string array to a double array
+        /// Converts a string array to a double array, if the can be parsed. Seperator '.' will be replaced with ','.
         /// </summary>
         /// <param name="array"></param>
         /// <returns>double array</returns>
@@ -212,7 +216,7 @@ namespace listClassFromScratch
 
         // to string array
         /// <summary>
-        /// Converts an int array to a string array
+        /// Converts an int array to a string array, if ALL entries are ints
         /// </summary>
         /// <param name="array"></param>
         /// <returns>String array</returns>
@@ -236,7 +240,7 @@ namespace listClassFromScratch
             return arrayOut;
         }
         /// <summary>
-        /// Converts a string array to an integer array
+        /// Converts a string array to an integer array, if ALL entries can be parsed to ints.
         /// </summary>
         /// <param name="array"></param>
         /// <returns>int array</returns>
